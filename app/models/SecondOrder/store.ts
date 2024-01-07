@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 
-type SecondOrderAST = {
+export type SecondOrderAST = {
 	id: number
 	content: string
 	nthOrder: Node[]
